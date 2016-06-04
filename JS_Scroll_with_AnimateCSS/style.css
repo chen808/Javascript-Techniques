@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#container-one {
+	background-color: orange;
+	height: 500px;
+}
+
+#container-two {
+	background-color: navy;
+	height: 500px;
+}
+
+#container-three {
+	background-color: green;
+	height: 500px;
+}
+
+.turn-white {
+	color: white;
+}
