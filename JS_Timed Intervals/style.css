@@ -1,0 +1,26 @@
+/* importing google font */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	background-color: #6666CC;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+div#mainMessage {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	width: 900px;
+	height: 75px;
+	margin: 0 auto;
+	border: 5px solid black;
+	padding-top: 20px;
+	text-shadow: 4px 4px black;
+}
