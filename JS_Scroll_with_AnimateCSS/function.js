@@ -15,7 +15,4 @@ $(window).scroll(function(){
 	}
 
 
-
-
-
 }); // end window.scroll

@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta name="author" content="Bruce Wayne">
-   <meta name="description" content="Grabbing the weather data">
-   <title>JS: Getting value from Checkboxes</title>
+   <meta name="Chen" content="Getting input data and displaying">
+   <meta name="description" content="Javascript: Getting value from Input Box">
+   <title>JS: Getting value from Input Box then Displaying</title>
+   <!-- this keeps the user from having to zoom in to web page -->
    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
-   <!-- always have jQuery CDN before personal js file -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   
+   <style type="text/css">
+      * {
+         font-family: Helvetica, sans-serif;
+      }
+
+      #custom-message {
+         width: 400px;
+         margin: 0 auto;
+         margin-top: 30px;
+      }
+
+      .success-text {
+         width: 300px;
+         padding: 20px;
+         background-color: orange;
+         color: white;
+      }
+
+      .error-text {
+         color: red;
+         padding: 20px;
+      }
+   </style>
 
 </head>
 
-<body>
+<body align="center">
 
-   <form>
-      <h1>Choose your favorite basketball player</h1>
-      <input type="checkbox" name="player" value="Lebron James">Lebron James<br>
-      <input type="checkbox" name="player" value="Kevin Durant">Kevin Durant<br>
-      <input type="checkbox" name="player" value="Steph Curry">Steph Curry<br>
-      <input type="button" onclick="myFunction()" value="Submit"><br>
+      <h1>Enter a name:</h1>
+      <input type="text" id="user-name">
+      <!-- once user clicks submit, the function 'myfunction' in scripts.js will trigger -->
+      <button onclick="myFunction()">Submit</button>
 
-      <!-- Display the player -->
-      <h3 id="yourPlayer"></h3>
-   </form>
+      <!-- the following will contain the user name -->
+      <div id="custom-message" align="center"></div>
+  
 
+   <!-- once document has been uploaded, run the following script -->
    <script src="scripts.js"></script>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
